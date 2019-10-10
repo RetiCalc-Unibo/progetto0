@@ -10,7 +10,7 @@ public class Produttore {
 		
 		if (args.length != 1) {
 			System.out.println("Utilizzo: produttore <inputFilename>");
-			System.exit(0);
+			System.exit(1);
 		}
 		
 		in = new BufferedReader(new InputStreamReader(System.in));
@@ -30,7 +30,7 @@ public class Produttore {
 		}
 	    catch (IOException e) {
 			e.printStackTrace();
-			System.exit(1);
+			System.exit(2);
 		}
 	}
 }
