@@ -16,7 +16,7 @@ public class Consumatore {
 		// Controllo numero argomenti
 		if (args.length < 1 || args.length > 2) {
 			System.out.println("Il numero di argomenti in input è errato.\n");
-			System.exit(0);
+			System.exit(1);
 		}
 
 		characters_to_remove = args[0];
@@ -30,7 +30,7 @@ public class Consumatore {
 			}
 			catch(FileNotFoundException e) {
 				System.out.println("Il file non è stato trovato.\n");
-				System.exit(1);
+				System.exit(2);
 			}
 		}
 
@@ -54,7 +54,7 @@ public class Consumatore {
 		}
 		catch (IOException e) {
 			System.out.println("Errore di input.\n");
-			System.exit(2);
+			System.exit(3);
 		}
 	}
 }
