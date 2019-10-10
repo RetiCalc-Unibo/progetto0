@@ -6,8 +6,8 @@
 #define MAX_STRING_LENGTH 256
 
 int main(int argc, char* argv[]) {
-    int fd, written, righe;
-    char *file_out, riga[MAX_STRING_LENGTH], buf[MAX_STRING_LENGTH];
+    int fd, written;
+    char *file_out, riga[MAX_STRING_LENGTH];
     
     //controllo numero argomenti
     if (argc != 2) { 
