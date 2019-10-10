@@ -50,7 +50,6 @@ public class Consumatore {
 				charIsPresent = false;
 			}
 
-			System.out.print("\n");
 			bufferedReader.close();
 		}
 		catch (IOException e) {
